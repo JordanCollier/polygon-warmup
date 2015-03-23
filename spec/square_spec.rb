@@ -1,3 +1,5 @@
+require 'polygon'
+require 'square'
 RSpec.describe Square do
 
   before(:each) do

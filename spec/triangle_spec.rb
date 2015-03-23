@@ -1,3 +1,4 @@
+require 'triangle'
 RSpec.describe Triangle do
 
   before(:each) do
@@ -19,5 +20,6 @@ RSpec.describe Triangle do
   it 'is a polygon' do
     expect(@triangle).to be_a(Polygon)
   end
+  
 
 end
